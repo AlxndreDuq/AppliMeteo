@@ -1,0 +1,114 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #8007e3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inpout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: max-content;
+}
+
+#barre{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#ville-choisie{
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    caret-color: white;
+    font-size: 20px;
+}
+
+#ville-choisie::placeholder{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Carte{
+    display: flex;
+    flex-direction: column;
+    background-color: #4a99e3;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+    width: max-content;
+    height: max-content;
+    visibility: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#pays{
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 25px;
+
+}
+
+#btn{
+    -webkit-appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#btn:hover{
+    background-color: white;
+    color: red;
+    transition: 0.4s;
+}
+
+img{
+    width: 100px;
+}
+
+#température-actuelle{
+    font-size: 60px;
+
+}
+
+#Temperature{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#Météo{
+    font-size: 30px;
+}
+
+#Météo-et-icone{
+    display: flex;
+    align-items: center;
+}
+
+#error{
+    color: white;
+    visibility: hidden;
+}
